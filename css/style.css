@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.btn-outline-secondary{
+    margin-left: 15%;
+    margin-top: 3%;
+}
+#lst, #sch{
+    margin-left: 0%;
+}
+.ajout{
+    width: 40%;
+    margin: 3% 30%;
+}
+.form-select{
+    margin-bottom: 3%;
+}
+.list{
+    margin: 0% 30%;
+}
+#student, #abs, #schedule{
+    display: none;
+}
+.rech{
+    display: flex;
+    width: 40%;
+    margin: 5% 0% 5% 40%;
+}
+.select_fil{
+    width:20%;
+    margin:5% 0%;
+    float: left;
+}
+.cont_ainer{
+    display: flex;
+    flex-direction: row;
+}
+.login{
+    width: 25%;
+    margin: 7% 35%;
+}
+.logout{
+    position: relative;
+    float:right;
+}
+#schedule{
+    width: 40%;
+    margin-top: 3%;
+    margin-left: 30%;
+    white-space: nowrap;
+}
+#classSel, #date{
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+}
+#time{
+    width: 50%;
+    margin-top: 2%;
+    white-space: nowrap;
+}
+#startTime, #endTime{
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+}
+#subjectSel{
+    width: 100%;
+    margin-top: 2%;
+}
+#close{
+    position: relative;
+    float: right;
+    cursor: pointer;
+}
+.upload{
+    margin-top: 1%;
+}
+
+
